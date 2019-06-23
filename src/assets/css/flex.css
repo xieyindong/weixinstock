@@ -1,0 +1,75 @@
+/*用于flex布局*/
+.flex{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+.flex_center{
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -webkit-align-items:center;
+    -ms-align-items: center;
+    align-items: center;
+}
+.flex_vcenter{
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+.flex_between{
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.flex_right{
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+.flex_full{
+    -webkit-flex:1 1;
+    flex:1 1;
+}
+.flex-col{
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.tcenter{
+    text-align: center;
+}
+.wrap{
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+/*用于边距*/
+.mt20{
+    margin-top:20px;
+}
+.m20{
+    margin:20px;
+}
+.mt10{
+    margin-top:10px;
+}
+.m10{
+    margin:10px
+}
+.pd20{
+    padding:20px;
+}
+.ml10{
+  margin-left:10px;
+}
+.mr10{
+  margin-right:10px;
+}
+.mb10{
+  margin-bottom:10px;
+}
+.pl10{
+  padding-left:10px;
+}
+/*通用*/
+p,h1,h2,h3,h4,h5,h6{
+  margin:0;
+}
